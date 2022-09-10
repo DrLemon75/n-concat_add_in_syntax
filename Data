@@ -1,0 +1,16 @@
+# Entering Data to the Concatenated Neuronal Network (CNN)
+import pandas as pd
+df_1 = pd.read_CSV('A')
+df_2 = pd.read_CSV('B')
+df_3 = pd.read_CSV('C')
+df_4 = pd.read_CSV('D')
+
+y_1 = df_1.label.values 
+y_2 = df_2.label.values
+y_3 = df_3.label.values 
+y_4 = df_4.label.values 
+
+x_1 = df_1.drop("label", axis=1) 
+x_2 = df_2.drop("label", axis=1)
+x_3 = df_3.drop("label", axis=3)
+x_4 = df_4.drop("label", axis=4) 
