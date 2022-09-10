@@ -1,3 +1,5 @@
+from sklearn.model_selection import train_test_split 
+
 # Each NN configuration 
 x_1 train, x_1 test, y_1 train, y_1 test = train_test_split(x_1, y_1, test_size=%, random_state=Nbr)
 x_2 train, x_2 test, y_2 train, y_2 test = train_test_split(x_2, y_2, test_size=%, random_state=Nbr)
