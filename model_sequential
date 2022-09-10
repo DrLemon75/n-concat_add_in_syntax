@@ -1,0 +1,17 @@
+# CNN runs under a distributed clock which ensures CNN-digital outputs are updated synchronously w/NN-basket layers-updates  
+# Inter-NN concat edges have their own processing time-gap & nbr. of epochs; while the whole CNN-model (w/non-concatenated edges included) focus on the max function 
+
+model = model.sequential()
+NN1.model.add.layers(properties) t'1:2 epoch 100
+NN2.model.add.layers(properties) t'2:3 epoch 300
+NN3.model.add.layers(properties) t'3:4 epoch 1500
+NN4.model.add.layers(properties) t'4:6 epoch 700
+CNN.model.add.layers(properties w/n-concat) t'1:6 epoch (Max(100; 300; 1500; 700) = 1500) 
+
+# n-concat function may call for all the NN-basket to be simultaneously initiated
+NN1.model.add.layers(properties) t'1:2 epoch 100
+NN2.model.add.layers(properties) t'1:2 epoch 300
+NN3.model.add.layers(properties) t'1:2 epoch 1500
+NN4.model.add.layers(properties) t'1:3 epoch 700
+CNN.model.add.layers(properties w/n-concat) Max(t; epoch) = (t'1:3; 1500) 
+
