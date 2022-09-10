@@ -1,16 +1,26 @@
 # Entering Data to the Concatenated Neuronal Network (CNN)
-import pandas as pd
-df_1 = pd.read_CSV('A')
-df_2 = pd.read_CSV('B')
-df_3 = pd.read_CSV('C')
-df_4 = pd.read_CSV('D')
+# It is assumed that each NN input pertains to a unique file type 
 
-y_1 = df_1.label.values 
-y_2 = df_2.label.values
-y_3 = df_3.label.values 
-y_4 = df_4.label.values 
+# Data frame 
+df_1 = pd.read.crawler('A'.HTML/XLS/CSV...)
+df_2 = pd.read.crawler('B'.HTML/XLS/CSV...)
+df_3 = pd.read.crawler('C'.HTML/XLS/CSV...)
+df_4 = pd.read.crawler('D'.HTML/XLS/CSV...)
 
-x_1 = df_1.drop("label", axis=1) 
-x_2 = df_2.drop("label", axis=1)
-x_3 = df_3.drop("label", axis=3)
-x_4 = df_4.drop("label", axis=4) 
+# y_n as an output of df_n;x_n: 
+  Def y_1(df_1; x_1) 
+  Def y_2(df_2; x_2) 
+  Def y_3(df_3; x_3) 
+  Def y_4(df_4; x_4)  
+  Def y:(df_:; x:) 
+  Return y*_df*
+
+# x_n as an input of df_n 
+x_1 = from df_1 select content (SEO)   
+x_2 = from df_2 select content (SEO) 
+x_3 = from df_3 select content (SEO) 
+x_4 = from df_4 select content (SEO) 
+x_: = from df: select content (SEO)
+
+# Different files types are allow for df: provided that they fit onto a neuronal architecture (structuring data) 
+df: = df_1 + df_2 + df_3 + df_4 
