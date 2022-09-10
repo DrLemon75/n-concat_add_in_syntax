@@ -1,0 +1,12 @@
+# neuronal concat programming syntax sets the interaction parameters between the neural networks, on which behavioral predictions are made
+# The concat function was extrated from Pandas "pd.concat" but has rather behavioural properties on CNN   
+# Syntaxis: n-concat (df:[ X_train : , y_train : , X-test : , y_test : ] (A), (B), (C), (D), (E), (F)
+# (A) A maximum quantity and variance of inter-NN nodes during the sparkle. 
+# (B) The mentioned quantity and variance but opened by each layer. 
+# (C) The variance not in terms of intermittence by on intellectual-nodes identity. 
+# (D) The acceptable random range of the weight in inter-NN edges 
+# (E) The NN that are behaviourally concatenated within the basket (assumes levels 
+of modularity with non-concatenated NN in the basket). 
+# (F) The connectivity definition: decoding the inter-NN weight signal. 
+
+n-concat (df:[ X_train : , y_train : , X-test : , y_test : ] (%), (%layer.add; %layer.add), (intermittence_frequency), (%), (NN_1Y/N; NN_nY/N), (%-Decode-%)
