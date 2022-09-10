@@ -8,3 +8,11 @@ x_4 train, x_4 test, y_4 train, y_4 test = train_test_split(x_4, y_4, test_size=
 
 # CNN configuration 
 x: train, x: test, y: train, y: test = train_test_split(x:, y:, test size=%, random_state=Nbr)
+
+# Shapes example 
+x_1_train.shape 
+x_2_train.shape
+x_3_train.shape
+x_4_train.shape
+x:_train.shape 
+
