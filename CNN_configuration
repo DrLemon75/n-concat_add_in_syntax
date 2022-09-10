@@ -1,0 +1,8 @@
+# Each NN configuration 
+x_1 train, x_1 test, y_1 train, y_1 test = train_test_split(x_1, y_1, test_size=%, random_state=Nbr)
+x_2 train, x_2 test, y_2 train, y_2 test = train_test_split(x_2, y_2, test_size=%, random_state=Nbr)
+x_3 train, x_3 test, y_3 train, y_3 test = train_test_split(x_3 y_3, test_size=%, random_state=Nbr)
+x_4 train, x_4 test, y_4 train, y_4 test = train_test_split(x_4, y_4, test_size=%, random_state=Nbr)
+
+# CNN configuration 
+x: train, x: test, y: train, y: test = train_test_split(x:, y:, test size=%, random_state=Nbr)
